@@ -171,7 +171,9 @@ CREATE TABLE Cart
         4.3 Triggers
 Trigger that will execute before inserting new customer to database and inserting a new cartId to the cart_items table
 
+
 create or replace function numCartId(cd in varchar)
+
     return number
     is
     total number(2):=0;
